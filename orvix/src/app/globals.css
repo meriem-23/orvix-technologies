@@ -1,0 +1,101 @@
+@import "@fontsource-variable/sora";
+@import "@fontsource-variable/manrope";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Design tokens — taken from the Orvix logo (RGB triplets) ----------
+   Logo gradient: #F500FF magenta → #8820FA violet → #0D66FE blue → #00B4FF cyan
+   Logo background: #010027 deep navy                                           */
+:root {
+  --bg: 255 255 255;
+  --surface: 246 245 253;
+  --raised: 255 255 255;
+  --line: 228 226 244;
+  --ink: 11 9 42;
+  --muted: 92 90 126;
+  --brand: 136 32 250;        /* #8820FA violet */
+  --brand-strong: 106 18 214; /* text/links on white */
+  --brand-soft: 241 233 255;
+  --brand-ink: 255 255 255;
+  --magenta: 214 0 232;
+  --blue: 13 102 254;
+  --accent: 0 128 210;        /* cyan, darkened for contrast on white */
+  --ok: 18 128 84;
+  --warn: 176 112 12;
+  --danger: 210 30 72;
+  --shadow: 40 20 120;
+  --navy: 1 0 39;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: 1 0 39;               /* #010027 — same navy as the logo */
+  --surface: 8 7 54;
+  --raised: 14 13 68;
+  --line: 38 36 102;
+  --ink: 243 242 255;
+  --muted: 158 156 206;
+  --brand: 136 32 250;
+  --brand-strong: 186 146 255;
+  --brand-soft: 34 18 92;
+  --brand-ink: 255 255 255;
+  --magenta: 245 0 255;
+  --blue: 52 130 255;
+  --accent: 0 190 255;
+  --ok: 74 212 152;
+  --warn: 242 182 82;
+  --danger: 255 96 134;
+  --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 { @apply font-display tracking-tight; }
+  ::selection { background: rgb(var(--brand) / 0.3); }
+  :focus-visible { outline: 2px solid rgb(var(--brand-strong)); outline-offset: 2px; border-radius: 6px; }
+}
+
+@layer components {
+  .bg-grad { background-image: linear-gradient(90deg, #F500FF 0%, #A21CF9 30%, #6A2DFB 55%, #0D66FE 82%, #00B4FF 100%); }
+  .text-grad {
+    background-image: linear-gradient(90deg, #F500FF 0%, #A21CF9 30%, #6A2DFB 55%, #0D66FE 82%, #00B4FF 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 h-11 text-sm font-semibold
+           transition disabled:opacity-50 disabled:pointer-events-none whitespace-nowrap;
+  }
+  .btn-primary {
+    @apply btn bg-grad text-white;
+    background-size: 160% 100%;
+    background-position: 0% 0;
+    transition: background-position .35s ease, box-shadow .2s ease;
+  }
+  .btn-primary:hover { background-position: 100% 0; box-shadow: 0 10px 30px -10px rgb(var(--brand) / .7); }
+  .btn-ghost { @apply btn border border-line bg-raised text-ink hover:border-brand/60; }
+  .btn-quiet { @apply btn h-9 px-3 text-muted hover:text-ink hover:bg-surface; }
+  .btn-danger { @apply btn h-9 px-3 border border-danger/40 text-danger hover:bg-danger/10; }
+
+  .field { @apply block w-full rounded-md border border-line bg-raised px-3 h-11 text-sm text-ink
+                 placeholder:text-muted/70 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/25; }
+  textarea.field { @apply h-auto py-2.5 min-h-[120px]; }
+  .label { @apply block text-sm font-medium text-ink mb-1.5; }
+  .hint { @apply mt-1 text-xs text-muted; }
+
+  .panel { @apply rounded-lg border border-line bg-raised; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold; }
+
+  /* Thin gradient rule, like the streams of the logo */
+  .rule-grad { height: 1px; background-image: linear-gradient(90deg, transparent, #F500FF 20%, #8820FA 50%, #00B4FF 80%, transparent); opacity: .6; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

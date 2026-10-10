@@ -1,0 +1,343 @@
+[
+  {
+    "slug": "pharmacie",
+    "name": "Orvix Pharma",
+    "category": "sante",
+    "tagline": "Gestion de pharmacie avec scan des médicaments",
+    "description": "Vendez plus vite au comptoir grâce au scan du code-barres, suivez chaque lot jusqu'à sa date de péremption et connaissez votre bénéfice réel à la fin de la journée.",
+    "features": [
+      "Scan code-barres des médicaments",
+      "Alertes de péremption et de rupture",
+      "Bénéfices par jour, par produit et par fournisseur",
+      "Factures et bons de livraison fournisseurs",
+      "Plusieurs postes et utilisateurs",
+      "Activation par clé de licence"
+    ],
+    "modules": [
+      "Caisse",
+      "Stock",
+      "Fournisseurs",
+      "Rapports",
+      "Utilisateurs"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 10,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "cabinet-medical",
+    "name": "Orvix Cabinet",
+    "category": "sante",
+    "tagline": "Dossiers patients, rendez-vous et ordonnances",
+    "description": "Le dossier de chaque patient au même endroit : antécédents, consultations, ordonnances imprimées en un clic et agenda des rendez-vous de la semaine.",
+    "features": [
+      "Dossier patient complet",
+      "Agenda des rendez-vous",
+      "Ordonnances et certificats imprimables",
+      "Suivi des paiements et des visites",
+      "Accès protégé par mot de passe"
+    ],
+    "modules": [
+      "Patients",
+      "Agenda",
+      "Ordonnances",
+      "Caisse"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 20,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "opticien",
+    "name": "Orvix Optic",
+    "category": "sante",
+    "tagline": "Gestion de magasin d'optique",
+    "description": "Fiches clients avec mesures et prescriptions, stock de montures et de verres, commandes atelier et suivi des ventes.",
+    "features": [
+      "Prescriptions et mesures par client",
+      "Stock montures, verres et lentilles",
+      "Commandes et suivi atelier",
+      "Ventes, acomptes et reste à payer"
+    ],
+    "modules": [
+      "Clients",
+      "Stock",
+      "Atelier",
+      "Ventes"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 30,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "superette",
+    "name": "Orvix Market",
+    "category": "commerce",
+    "tagline": "Caisse de superette avec crédit clients",
+    "description": "Encaissez au scan, gérez le carnet de crédit de vos clients sans papier et voyez en temps réel ce qui reste en rayon.",
+    "features": [
+      "Caisse rapide au code-barres",
+      "Carnet de crédit par client",
+      "Stock et alertes de réapprovisionnement",
+      "Clôture de caisse journalière",
+      "Impression de tickets"
+    ],
+    "modules": [
+      "Caisse",
+      "Stock",
+      "Clients & crédit",
+      "Rapports"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 40,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "restaurant",
+    "name": "Orvix Resto",
+    "category": "commerce",
+    "tagline": "Caisse restaurant et pizzeria",
+    "description": "Prise de commande sur place, à emporter ou en livraison, tickets cuisine et suivi des ventes par article et par serveur.",
+    "features": [
+      "Commandes sur place, à emporter et livraison",
+      "Tickets cuisine automatiques",
+      "Menu, suppléments et formules",
+      "Ventes par article, serveur et jour",
+      "Gestion des tables"
+    ],
+    "modules": [
+      "Caisse",
+      "Cuisine",
+      "Menu",
+      "Rapports"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 50,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "gestion-stock",
+    "name": "Orvix Stock",
+    "category": "commerce",
+    "tagline": "Stock, achats et ventes pour grossistes et dépôts",
+    "description": "Entrées, sorties, inventaires et mouvements entre dépôts, avec l'historique complet de chaque article.",
+    "features": [
+      "Entrées, sorties et transferts",
+      "Inventaires et écarts",
+      "Plusieurs dépôts",
+      "Fournisseurs et clients",
+      "Valeur du stock en temps réel"
+    ],
+    "modules": [
+      "Articles",
+      "Mouvements",
+      "Inventaire",
+      "Rapports"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 60,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "salon-coiffure",
+    "name": "Orvix Salon",
+    "category": "services",
+    "tagline": "Rendez-vous et caisse pour salons de coiffure",
+    "description": "Planning des rendez-vous par employé, fiche client avec historique des prestations et caisse intégrée.",
+    "features": [
+      "Planning par employé",
+      "Historique des prestations par client",
+      "Caisse et commissions",
+      "Produits et stock"
+    ],
+    "modules": [
+      "Agenda",
+      "Clients",
+      "Caisse",
+      "Employés"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 70,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "creche",
+    "name": "Orvix Kids",
+    "category": "services",
+    "tagline": "Gestion de crèche et jardin d'enfants",
+    "description": "Inscriptions, présences, paiements mensuels des parents et informations de contact, organisés par groupe.",
+    "features": [
+      "Inscriptions et fiches enfants",
+      "Présences journalières",
+      "Paiements mensuels et impayés",
+      "Groupes et éducatrices"
+    ],
+    "modules": [
+      "Enfants",
+      "Présences",
+      "Paiements",
+      "Groupes"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 80,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "dj-evenements",
+    "name": "Orvix Events",
+    "category": "services",
+    "tagline": "Réservations pour DJ, mariages et fêtes",
+    "description": "Calendrier des événements, contrats, acomptes et matériel réservé pour chaque date, sans double réservation.",
+    "features": [
+      "Calendrier des événements",
+      "Contrats et acomptes",
+      "Matériel par événement",
+      "Rappels des dates à venir"
+    ],
+    "modules": [
+      "Calendrier",
+      "Clients",
+      "Contrats",
+      "Matériel"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 90,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "agence-voyage",
+    "name": "Orvix Travel",
+    "category": "agences",
+    "tagline": "Front-office d'agence de voyage, même hors ligne",
+    "description": "Billets, hôtels, omra et circuits : dossiers clients, paiements et documents de voyage, utilisable sans connexion internet.",
+    "features": [
+      "Dossiers clients et passagers",
+      "Billetterie, hôtels, omra et circuits",
+      "Paiements et reste à payer",
+      "Fonctionne hors ligne",
+      "Documents de voyage imprimables"
+    ],
+    "modules": [
+      "Dossiers",
+      "Ventes",
+      "Caisse",
+      "Rapports"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 100,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "agence-architecture",
+    "name": "Orvix Archi",
+    "category": "agences",
+    "tagline": "Gestion d'agence d'architecture, trilingue",
+    "description": "Projets, phases, honoraires et documents de chantier, avec une interface en français, arabe et anglais.",
+    "features": [
+      "Projets et phases",
+      "Honoraires et paiements",
+      "Documents par projet",
+      "Interface FR / AR / EN"
+    ],
+    "modules": [
+      "Projets",
+      "Clients",
+      "Honoraires",
+      "Documents"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "sort_order": 110,
+    "kind": "logiciel"
+  },
+  {
+    "slug": "projecteur-logo",
+    "name": "Projecteur de logo",
+    "kind": "materiel",
+    "category": "publicite",
+    "tagline": "Votre logo projeté au sol ou sur un mur, devant votre commerce",
+    "description": "Un projecteur LED qui affiche votre logo ou votre message à l'entrée, devant la vitrine ou dans votre salle. Nous préparons le visuel à partir de votre logo et vous livrons le projecteur prêt à brancher.",
+    "features": [
+      "Projection de votre logo au sol ou au mur",
+      "Visuel préparé à partir de votre logo",
+      "Modèles pour l'intérieur et l'extérieur",
+      "Idéal pour vitrines, entrées, salles des fêtes et stands"
+    ],
+    "modules": [],
+    "platforms": [],
+    "sort_order": 200
+  },
+  {
+    "slug": "poste-caisse",
+    "name": "Poste de caisse complet",
+    "kind": "materiel",
+    "category": "informatique",
+    "tagline": "PC, écran, imprimante de tickets et lecteur code-barres, logiciel installé",
+    "description": "Tout le matériel de caisse en un seul pack, livré avec votre logiciel Orvix déjà installé et configuré : vous commencez à vendre le jour même.",
+    "features": [
+      "PC et écran adaptés à la caisse",
+      "Imprimante de tickets",
+      "Lecteur de code-barres",
+      "Logiciel Orvix installé et configuré",
+      "Installation et formation sur place"
+    ],
+    "modules": [],
+    "platforms": [],
+    "sort_order": 210
+  },
+  {
+    "slug": "pc-bureau",
+    "name": "PC de bureau",
+    "kind": "materiel",
+    "category": "informatique",
+    "tagline": "Configuré selon votre usage et votre budget",
+    "description": "Des PC de bureau pour la caisse, la comptabilité, le secrétariat ou le travail graphique, préparés et testés avant la livraison.",
+    "features": [
+      "Configuration selon votre usage",
+      "Windows installé, prêt à l'emploi",
+      "Logiciels Orvix pré-installés sur demande",
+      "Service après-vente"
+    ],
+    "modules": [],
+    "platforms": [],
+    "sort_order": 220
+  },
+  {
+    "slug": "pc-portable",
+    "name": "PC portable",
+    "kind": "materiel",
+    "category": "informatique",
+    "tagline": "Pour travailler partout, du comptoir au déplacement",
+    "description": "PC portables sélectionnés pour les professionnels, livrés configurés avec vos logiciels et vos comptes.",
+    "features": [
+      "Modèles pour la bureautique et la gestion",
+      "Préparé et configuré avant la livraison",
+      "Logiciels Orvix pré-installés sur demande",
+      "Service après-vente"
+    ],
+    "modules": [],
+    "platforms": [],
+    "sort_order": 230
+  }
+]
