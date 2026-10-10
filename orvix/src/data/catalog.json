@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "pharmacie",
+    "name": "Orvix Pharma",
+    "category": "sante",
+    "tagline": "Gestion de pharmacie avec scan des médicaments",
+    "description": "Vendez plus vite au comptoir grâce au scan du code-barres, suivez chaque lot jusqu'à sa date de péremption et connaissez votre bénéfice réel à la fin de la journée.",
+    "features": ["Scan code-barres des médicaments", "Alertes de péremption et de rupture", "Bénéfices par jour, par produit et par fournisseur", "Factures et bons de livraison fournisseurs", "Plusieurs postes et utilisateurs", "Activation par clé de licence"],
+    "modules": ["Caisse", "Stock", "Fournisseurs", "Rapports", "Utilisateurs"],
+    "platforms": ["Windows"],
+    "sort_order": 10
+  },
+  {
+    "slug": "cabinet-medical",
+    "name": "Orvix Cabinet",
+    "category": "sante",
+    "tagline": "Dossiers patients, rendez-vous et ordonnances",
+    "description": "Le dossier de chaque patient au même endroit : antécédents, consultations, ordonnances imprimées en un clic et agenda des rendez-vous de la semaine.",
+    "features": ["Dossier patient complet", "Agenda des rendez-vous", "Ordonnances et certificats imprimables", "Suivi des paiements et des visites", "Accès protégé par mot de passe"],
+    "modules": ["Patients", "Agenda", "Ordonnances", "Caisse"],
+    "platforms": ["Windows"],
+    "sort_order": 20
+  },
+  {
+    "slug": "opticien",
+    "name": "Orvix Optic",
+    "category": "sante",
+    "tagline": "Gestion de magasin d'optique",
+    "description": "Fiches clients avec mesures et prescriptions, stock de montures et de verres, commandes atelier et suivi des ventes.",
+    "features": ["Prescriptions et mesures par client", "Stock montures, verres et lentilles", "Commandes et suivi atelier", "Ventes, acomptes et reste à payer"],
+    "modules": ["Clients", "Stock", "Atelier", "Ventes"],
+    "platforms": ["Windows"],
+    "sort_order": 30
+  },
+  {
+    "slug": "superette",
+    "name": "Orvix Market",
+    "category": "commerce",
+    "tagline": "Caisse de superette avec crédit clients",
+    "description": "Encaissez au scan, gérez le carnet de crédit de vos clients sans papier et voyez en temps réel ce qui reste en rayon.",
+    "features": ["Caisse rapide au code-barres", "Carnet de crédit par client", "Stock et alertes de réapprovisionnement", "Clôture de caisse journalière", "Impression de tickets"],
+    "modules": ["Caisse", "Stock", "Clients & crédit", "Rapports"],
+    "platforms": ["Windows"],
+    "sort_order": 40
+  },
+  {
+    "slug": "restaurant",
+    "name": "Orvix Resto",
+    "category": "commerce",
+    "tagline": "Caisse restaurant et pizzeria",
+    "description": "Prise de commande sur place, à emporter ou en livraison, tickets cuisine et suivi des ventes par article et par serveur.",
+    "features": ["Commandes sur place, à emporter et livraison", "Tickets cuisine automatiques", "Menu, suppléments et formules", "Ventes par article, serveur et jour", "Gestion des tables"],
+    "modules": ["Caisse", "Cuisine", "Menu", "Rapports"],
+    "platforms": ["Windows"],
+    "sort_order": 50
+  },
+  {
+    "slug": "gestion-stock",
+    "name": "Orvix Stock",
+    "category": "commerce",
+    "tagline": "Stock, achats et ventes pour grossistes et dépôts",
+    "description": "Entrées, sorties, inventaires et mouvements entre dépôts, avec l'historique complet de chaque article.",
+    "features": ["Entrées, sorties et transferts", "Inventaires et écarts", "Plusieurs dépôts", "Fournisseurs et clients", "Valeur du stock en temps réel"],
+    "modules": ["Articles", "Mouvements", "Inventaire", "Rapports"],
+    "platforms": ["Windows"],
+    "sort_order": 60
+  },
+  {
+    "slug": "salon-coiffure",
+    "name": "Orvix Salon",
+    "category": "services",
+    "tagline": "Rendez-vous et caisse pour salons de coiffure",
+    "description": "Planning des rendez-vous par employé, fiche client avec historique des prestations et caisse intégrée.",
+    "features": ["Planning par employé", "Historique des prestations par client", "Caisse et commissions", "Produits et stock"],
+    "modules": ["Agenda", "Clients", "Caisse", "Employés"],
+    "platforms": ["Windows"],
+    "sort_order": 70
+  },
+  {
+    "slug": "creche",
+    "name": "Orvix Kids",
+    "category": "services",
+    "tagline": "Gestion de crèche et jardin d'enfants",
+    "description": "Inscriptions, présences, paiements mensuels des parents et informations de contact, organisés par groupe.",
+    "features": ["Inscriptions et fiches enfants", "Présences journalières", "Paiements mensuels et impayés", "Groupes et éducatrices"],
+    "modules": ["Enfants", "Présences", "Paiements", "Groupes"],
+    "platforms": ["Windows"],
+    "sort_order": 80
+  },
+  {
+    "slug": "dj-evenements",
+    "name": "Orvix Events",
+    "category": "services",
+    "tagline": "Réservations pour DJ, mariages et fêtes",
+    "description": "Calendrier des événements, contrats, acomptes et matériel réservé pour chaque date, sans double réservation.",
+    "features": ["Calendrier des événements", "Contrats et acomptes", "Matériel par événement", "Rappels des dates à venir"],
+    "modules": ["Calendrier", "Clients", "Contrats", "Matériel"],
+    "platforms": ["Windows"],
+    "sort_order": 90
+  },
+  {
+    "slug": "agence-voyage",
+    "name": "Orvix Travel",
+    "category": "agences",
+    "tagline": "Front-office d'agence de voyage, même hors ligne",
+    "description": "Billets, hôtels, omra et circuits : dossiers clients, paiements et documents de voyage, utilisable sans connexion internet.",
+    "features": ["Dossiers clients et passagers", "Billetterie, hôtels, omra et circuits", "Paiements et reste à payer", "Fonctionne hors ligne", "Documents de voyage imprimables"],
+    "modules": ["Dossiers", "Ventes", "Caisse", "Rapports"],
+    "platforms": ["Windows"],
+    "sort_order": 100
+  },
+  {
+    "slug": "agence-architecture",
+    "name": "Orvix Archi",
+    "category": "agences",
+    "tagline": "Gestion d'agence d'architecture, trilingue",
+    "description": "Projets, phases, honoraires et documents de chantier, avec une interface en français, arabe et anglais.",
+    "features": ["Projets et phases", "Honoraires et paiements", "Documents par projet", "Interface FR / AR / EN"],
+    "modules": ["Projets", "Clients", "Honoraires", "Documents"],
+    "platforms": ["Windows"],
+    "sort_order": 110
+  }
+]
